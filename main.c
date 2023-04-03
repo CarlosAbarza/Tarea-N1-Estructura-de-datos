@@ -56,6 +56,11 @@ void limp_pac(Paciente *limpiar) {
 Paciente* leer_validar(bool *quedan) {
   Paciente *local = (Paciente*) calloc(1, sizeof(Paciente));
   size_t max = 31;
+  local->nombre = (char *) malloc(31* sizeof(char));
+  local->apellido = (char *) malloc(31* sizeof(char));
+  local->telefono = (char *) malloc(31* sizeof(char));
+  local->direccion = (char *) malloc(31* sizeof(char));
+  local->n_seg_soc = (char *) malloc(31* sizeof(char));
   printf("Hola, ingresa el nombre\n");
   size_t leidos = getline(&local->nombre, &max, stdin);
   if (leidos > 31) {
@@ -220,8 +225,8 @@ void buscar_dat_pac(List *pacientes, char* nombre, char* apellido) {
 }
 
 void buscar_pacientes(List *ingresos) {
-  char *nombre;
-  char *apellido;
+  char *nombre = (char *) malloc(31* sizeof(char));
+  char *apellido = (char *) malloc(31* sizeof(char));
   size_t max = 31;
   printf("Ingrese el nombre\n");
   size_t leidos = getline(&nombre, &max, stdin);
@@ -317,9 +322,9 @@ int main() {
     local = nextList(ingresos);
   }
   */
-  mostrar_pacientes(ingresos); 
+  //mostrar_pacientes(ingresos); 
   
-  mostrar_pac_sin_med(ingresos); 
+  //mostrar_pac_sin_med(ingresos); 
 
   
   medicos_ingresados(meds_asignados, ingresos);
