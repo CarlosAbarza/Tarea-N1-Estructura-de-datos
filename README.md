@@ -61,18 +61,20 @@ Para compilar y ejecutar el programa, sigue estos pasos:
     -  Para importar los pacientes se presiona 8 en el indice.
 
 
+
 ## Coevaluación equipo
-- Participación activa y equitativa:
-- Resolución de conflictos:
-- Colaboración:
-- Responsabilidad:
-- Comunicación:
-- Puntaje total:
+- Participación activa y equitativa: 20 
+- Resolución de conflictos: 20
+- Colaboración: 20 
+- Responsabilidad: 20 
+- Comunicación: 15
+- Puntaje total: 95
 
 ## Coevaluación del aporte individual
-- Participación:
-- Responsabilidad:
-- Comunicación:
-- Calidad del trabajo:
-- Trabajo en equipo:
+| Integrante | Participación | Responsabilidad | Comunicación | Calidad del trabajo | Trabajo en equipo | Pje Total |
+|------------|--------------|----------------|--------------|------------------|------------------|------------------|
+| Ignacio    | 20           | 15             |  20          | 20               | 20               | 95               |
+| Vicente    | 20           | 20             |  15          | 20               | 20               | 95               |
+| Antonia    | 20           | 20             |  15          | 20               | 20               | 95               |
+| Carlos     | 20           | 20             |  15          | 20               | 20               | 95               |
 
