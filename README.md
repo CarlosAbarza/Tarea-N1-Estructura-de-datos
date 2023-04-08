@@ -64,6 +64,7 @@ Para compilar y ejecutar el programa, sigue estos pasos:
   - replit (Para desarrollar el programa en conjunto)
   - Visual Studio Code (Para desarrollar el programa individualmente)
   - Github (Para guardar un backup del programa en caso de falla en replit)
+  - GPT (Para redactar parcialmente el archivo readme)
 
 ## Coevaluación equipo
 - Participación activa y equitativa: 20 
