@@ -8,7 +8,7 @@ Para compilar y ejecutar el programa, sigue estos pasos:
 
 1. Clona el repositorio desde GitHub ejecutando el siguiente comando en tu terminal:
     ```
-    git clone https://github.com/tu_usuario/tu_repositorio.git
+    git clone https://github.com/ignacio-ave/Tarea-N1-Estructura-de-datos.git
     ```
 2. Abre una terminal en el directorio en el que se encuentran los archivos `main.c`, `list.c` y `list.h`.
 
