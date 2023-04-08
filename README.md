@@ -60,7 +60,10 @@ Para compilar y ejecutar el programa, sigue estos pasos:
     -  Con la funcion "importar_pac" crea una variable local en la que se guardará el nombre del archivo que se desea abrir, ingresado por el usuario.
     -  Para importar los pacientes se presiona 8 en el indice.
 
-
+### Herramientas usadas para el desarrollo:
+  - replit (Para desarrollar el programa en conjunto)
+  - Visual Studio Code (Para desarrollar el programa individualmente)
+  - Github (Para guardar un backup del programa en caso de falla en replit)
 
 ## Coevaluación equipo
 - Participación activa y equitativa: 20 
